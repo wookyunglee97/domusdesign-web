@@ -1,17 +1,25 @@
 import React from "react";
 import "./App.css";
-import Greet from "./components/greet";
-import { Navbar, NavbarBrand } from "reactstrap";
+import NavBar from "./components/NavBar";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  NavLink,
+} from "react-router-dom";
+import Home from "./containers/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar>
-        <div>
-          <NavbarBrand>Item#1</NavbarBrand>
-        </div>
-      </Navbar>
-      <Greet />
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" end element={<Home />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
