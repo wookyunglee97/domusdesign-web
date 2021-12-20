@@ -1,16 +1,22 @@
 .home-img {
-  background-image: url("../images/2.1.png");
-  /* Set a specified height, or the minimum height for the background image */
+  /* 2.1 - bcd, 1.2 bar basso */
+  background-image: url("../images/1.2.png");
   height: 100%;
-  /* Set background image to fixed (don't scroll along with the page) */
   background-attachment: fixed;
-  /* Center the background image */
   background-position: center;
-  /* Set the background image to no repeat */
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .home-container {
   flex: auto;
+  height: 100%;
+}
+
+.carousel .slide {
+  height: 100%;
+}
+
+.carousel .inner {
+  height: 100%;
 }
