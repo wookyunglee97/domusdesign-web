@@ -6,7 +6,7 @@ import "../assets/styles/Footer.css";
 
 function Footer() {
   return (
-    <div class="main-footer">
+    <div className="main-footer">
       <FontAwesomeIcon icon={faCopyright} />
       2021 Domus Design Inc. All Rights Reserved. |{" "}
       <NavLink
