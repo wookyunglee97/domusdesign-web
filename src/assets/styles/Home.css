@@ -1,16 +1,32 @@
-.home-img {
-  background-image: url("../images/2.1.png");
-  /* Set a specified height, or the minimum height for the background image */
-  height: 100%;
-  /* Set background image to fixed (don't scroll along with the page) */
-  background-attachment: fixed;
-  /* Center the background image */
-  background-position: center;
-  /* Set the background image to no repeat */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .home-container {
   flex: auto;
+}
+
+.home-img {
+  height: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 200px 40px 20px 40px;
+  height: 100%;
+  width: 40%;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.switch-header {
+  font-size: 100px;
+}
+
+.sub-header {
+  padding-bottom: 15px;
+  border-bottom: #f60703 solid;
+  margin-left: 5px;
 }
