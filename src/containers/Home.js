@@ -1,7 +1,11 @@
 import React from "react";
 import "../assets/styles/Home.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 import TextTransition, { presets } from "react-text-transition";
 import images from "../shared/images";
+import { Button } from "reactstrap";
+import { NavLink } from "react-router-dom";
 
 const BACKGROUNDS = [
   { text: "Ideate", image: "2.1.png" },
@@ -45,8 +49,34 @@ function Home() {
                 springConfig={presets.wobbly}
               />
             </h1>
-            <h1 className="sub-header"> with domus design</h1>
-            <div>Building your forever home?</div>
+            <h1 className="sub-header">
+              {" "}
+              together with <b>domus design</b>
+            </h1>
+            <div className="intro-content">Building your forever home?</div>
+            <div className="intro-content">
+              Need a new storefront for your growing business?
+            </div>
+            <div
+              className="intro-content"
+              style={{
+                fontSize: "25px",
+                paddingTop: "10px",
+                width: "80%",
+                margin: "auto",
+              }}
+            >
+              Don't just dream it, Achieve it with Domus Design
+            </div>
+            <NavLink to="/contact" className="contact-redirect">
+              <Button bsClass="contact-button">
+                Contact Us
+                <FontAwesomeIcon
+                  icon={faArrowCircleRight}
+                  style={{ marginLeft: "5px" }}
+                />
+              </Button>
+            </NavLink>
           </div>
         </div>
       </div>
