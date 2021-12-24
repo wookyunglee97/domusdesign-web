@@ -35,6 +35,9 @@ function CardCarousel(props) {
         <Carousel
           ssr
           partialVisible
+          draggable={true}
+          removeArrowOnDeviceType={["desktop", "tablet", "mobile"]}
+          deviceType="desktop"
           itemClass="image-item"
           responsive={responsive}
         >
