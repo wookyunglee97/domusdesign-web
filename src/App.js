@@ -7,10 +7,12 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
+import { COMMERCIAL_WORKS, RESIDENTIAL_WORKS } from "./shared/constants";
 import Home from "./containers/Home";
 import Footer from "./components/Footer";
 import Gallery from "./containers/Gallery";
-import { COMMERCIAL_WORKS, RESIDENTIAL_WORKS } from "./shared/constants";
+import About from "./containers/About";
+import Contact from "./containers/Contact";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" end element={<Home />} />
+          <Route path="/about" end element={<About />} />
           <Route
             path="/commercial"
             end
@@ -33,6 +36,7 @@ function App() {
               <Gallery pageName="Residential" sections={RESIDENTIAL_WORKS} />
             }
           />
+          <Route path="/contact" end element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
