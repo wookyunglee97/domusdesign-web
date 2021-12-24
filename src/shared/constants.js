@@ -68,16 +68,6 @@ export const COMMERCIAL_WORKS = [
     images: ["4.1", "4.2", "4.3", "4.4", "4.5", "4.6"],
   },
   {
-    name: "NYJS Acupuncture & Herbs",
-    location: "Bayside, NY",
-    images: ["5.1", "5.2", "5.3", "5.4", "5.5"],
-  },
-  {
-    name: "Bar Basso",
-    location: "Manhattan, NY",
-    images: ["9.3", "9.2", "9.1"],
-  },
-  {
     name: "Carvel",
     location: "Staten Island, NY",
     images: ["20.1", "20.2", "20.3", "20.4", "20.5"],
@@ -101,9 +91,24 @@ export const COMMERCIAL_WORKS = [
     ],
   },
   {
+    name: "Gypsophila Nail & SPA",
+    location: "Manhattan, NY",
+    images: ["7.1", "7.2", "7.3", "7.4", "7.5"],
+  },
+  {
     name: "Karaoke City",
     location: "Manhattan, NY",
     images: ["10.1", "10.2", "10.3", "10.4", "10.5"],
+  },
+  {
+    name: "Medical Office - New Construction",
+    location: "Staten Island, NY",
+    images: ["19.1", "19.2", "19.3", "19.4", "19.5"],
+  },
+  {
+    name: "NYJS Acupuncture & Herbs",
+    location: "Bayside, NY",
+    images: ["5.1", "5.2", "5.3", "5.4", "5.5"],
   },
   {
     name: "Spring Shabu Shabu",
@@ -116,13 +121,8 @@ export const COMMERCIAL_WORKS = [
     images: ["6.1", "6.2", "6.3"],
   },
   {
-    name: "Gypsophila Nail & SPA",
+    name: "Bar Basso",
     location: "Manhattan, NY",
-    images: ["7.1", "7.2", "7.3", "7.4", "7.5"],
-  },
-  {
-    name: "Medical Office - New Construction",
-    location: "Staten Island, NY",
-    images: ["19.1", "19.2", "19.3", "19.4", "19.5"],
+    images: ["9.3", "9.2", "9.1"],
   },
 ];
