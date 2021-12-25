@@ -15,6 +15,9 @@ import About from "./containers/About";
 import Contact from "./containers/Contact";
 
 function App() {
+  React.useEffect(() => {
+    document.title = "Domus Design Inc. | NYC General Contractor";
+  }, []);
   return (
     <div className="App">
       <Router>
@@ -26,14 +29,20 @@ function App() {
             path="/commercial"
             end
             element={
-              <Gallery pageName="Commercial" sections={COMMERCIAL_WORKS} />
+              <Gallery
+                pageName="Projects / Commercial"
+                sections={COMMERCIAL_WORKS}
+              />
             }
           />
           <Route
             path="/residential"
             end
             element={
-              <Gallery pageName="Residential" sections={RESIDENTIAL_WORKS} />
+              <Gallery
+                pageName="Projects / Residential"
+                sections={RESIDENTIAL_WORKS}
+              />
             }
           />
           <Route path="/contact" end element={<Contact />} />

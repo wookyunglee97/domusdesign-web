@@ -1,23 +1,36 @@
 .col-form-label {
-    text-align: left;
-    font-weight: bold;
+  text-align: right;
+  font-weight: bold;
 }
 
 .contact-form .form-control {
-    border: none;
-    background-color:#f5f5f5;
-    color: #888888;
+  border: none;
+  background-color: #f5f5f5;
+  color: #888888;
 }
 
 .contact-form .btn {
-    background-color: #f60703;
-    border: none;
-    color: white;
-    padding: 10px 0;
-    margin-top: 20px;
-    width: 200px;
+  background-color: #f60703;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+  width: 200px;
 }
 
 .contact-form .btn:hover {
-    background-color: #b90502;
+  background-color: #b90502;
+}
+
+.required-field {
+  color: red;
+}
+
+.message-box {
+  height: 200px;
+  width: 100% !important;
+}
+
+.field-box {
+  width: 80% !important;
 }

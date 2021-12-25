@@ -10,9 +10,33 @@ function NavBar() {
       <Nav className="main-nav">
         <div className="nav-logo">
           <NavItem>
-            <NavLink to="/" end>
-              <img src={logo} alt="domus design" className="home-icon"></img>
-            </NavLink>
+            <div
+              style={{
+                padding: "5px",
+                display: "flex",
+                flexDirection: "row",
+              }}
+            >
+              <img
+                src={logo}
+                alt="domus design logo"
+                className="home-icon"
+              ></img>
+              <span className="home-text">
+                <span
+                  style={{
+                    textAlign: "left",
+                    lineHeight: "0.1",
+                    paddingTop: "15px",
+                  }}
+                >
+                  domus
+                </span>
+                <span style={{ color: "#f60703", paddingLeft: "20px" }}>
+                  design
+                </span>
+              </span>
+            </div>
           </NavItem>
         </div>
         <div className="nav-menu">

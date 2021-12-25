@@ -33,7 +33,7 @@ function About() {
           <h1
             style={{
               color: "white",
-              padding: "10px",
+              padding: "10px 10px 10px 20px",
               bottom: 0,
               position: "absolute",
             }}

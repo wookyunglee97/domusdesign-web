@@ -57,16 +57,8 @@ function Home() {
             <div className="intro-content">
               Need a new storefront for your growing business?
             </div>
-            <div
-              className="intro-content"
-              style={{
-                fontSize: "25px",
-                paddingTop: "10px",
-                width: "80%",
-                margin: "auto",
-              }}
-            >
-              Don't just dream it, Achieve it with Domus Design
+            <div className="intro-content">
+              Don't just dream it, <b>achieve</b> it with Domus Design
             </div>
             <NavLink to="/contact" className="contact-redirect">
               <Button bsClass="contact-button">
