@@ -1,0 +1,32 @@
+.about-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.about-content {
+  height: 60%;
+  text-align: left;
+  padding: 30px;
+}
+
+.about-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.about-text > span {
+  margin-bottom: 10px;
+}
+
+.flex-large {
+  flex: 3;
+}
+
+.flex-small {
+  flex: 0.7;
+}
+
+.project-card {
+  margin: 10px;
+}

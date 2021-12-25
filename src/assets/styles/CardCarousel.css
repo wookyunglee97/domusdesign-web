@@ -1,0 +1,23 @@
+.react-multi-carousel-list {
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.react-multi-carousel-track {
+  height: 100%;
+}
+
+.image-item {
+  width: auto !important;
+  height: 100%;
+  margin: 0 5px 0 5px;
+}
+
+.section {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.section-name {
+  border-left: 5px solid #f60703;
+}

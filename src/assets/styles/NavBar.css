@@ -1,0 +1,55 @@
+.home-icon {
+  height: 48px;
+  flex: 1;
+}
+
+.home-text {
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  vertical-align: middle;
+  font-family: "Roboto Slab", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.nav-logo {
+  border-left: 5px solid #f60703;
+  padding: 4px;
+}
+
+.main-nav {
+  justify-content: space-between;
+}
+
+.nav-menu .nav-item {
+  margin-top: 20px;
+  border-bottom: 5px solid transparent;
+  width: 110px;
+}
+
+.nav-menu .nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: #f60703 !important;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+.nav-menu .nav-item a:hover {
+  cursor: pointer;
+  color: #f60703;
+  font-weight: bold;
+}
+
+.nav-menu .nav-item:hover {
+  border-bottom: 5px solid #f60703;
+}
+
+.nav-menu {
+  display: flex;
+}
