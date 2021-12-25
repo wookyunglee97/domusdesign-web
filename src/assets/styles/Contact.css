@@ -1,0 +1,17 @@
+.contact-page {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.contact-form-container {
+    padding: 40px 60px;
+    border: 1px black solid;
+    width: 600px;
+    margin: 50px 0;
+}
+
+.contact-form-container h1 {
+    margin-bottom: 40px;
+}
