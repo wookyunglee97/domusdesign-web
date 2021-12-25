@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/domusdesign-web/static/css/main.15156857.chunk.css",
-    "main.js": "/domusdesign-web/static/js/main.c3989e8e.chunk.js",
-    "main.js.map": "/domusdesign-web/static/js/main.c3989e8e.chunk.js.map",
+    "main.js": "/domusdesign-web/static/js/main.cdb23275.chunk.js",
+    "main.js.map": "/domusdesign-web/static/js/main.cdb23275.chunk.js.map",
     "runtime-main.js": "/domusdesign-web/static/js/runtime-main.603a76fd.js",
     "runtime-main.js.map": "/domusdesign-web/static/js/runtime-main.603a76fd.js.map",
     "static/css/2.fe19addb.chunk.css": "/domusdesign-web/static/css/2.fe19addb.chunk.css",
@@ -132,6 +132,6 @@
     "static/css/2.fe19addb.chunk.css",
     "static/js/2.f3a5ebc8.chunk.js",
     "static/css/main.15156857.chunk.css",
-    "static/js/main.c3989e8e.chunk.js"
+    "static/js/main.cdb23275.chunk.js"
   ]
 }

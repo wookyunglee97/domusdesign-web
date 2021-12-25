@@ -10,7 +10,7 @@ function Footer() {
       <FontAwesomeIcon icon={faCopyright} />
       2021 Domus Design Inc. All Rights Reserved. |{" "}
       <NavLink
-        to="/contact"
+        to="/domusdesign-web/contact"
         style={{ textDecoration: "none", color: "#f60703" }}
       >
         Contact Us

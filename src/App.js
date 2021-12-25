@@ -23,10 +23,10 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route path="/" end element={<Home />} />
-          <Route path="/about" end element={<About />} />
+          <Route path="/domusdesign-web" end element={<Home />} />
+          <Route path="/domusdesign-web/about" end element={<About />} />
           <Route
-            path="/commercial"
+            path="/domusdesign-web/commercial"
             end
             element={
               <Gallery
@@ -36,7 +36,7 @@ function App() {
             }
           />
           <Route
-            path="/residential"
+            path="/domusdesign-web/residential"
             end
             element={
               <Gallery
@@ -45,7 +45,7 @@ function App() {
               />
             }
           />
-          <Route path="/contact" end element={<Contact />} />
+          <Route path="/domusdesign-web/contact" end element={<Contact />} />
         </Routes>
         <Footer />
       </Router>

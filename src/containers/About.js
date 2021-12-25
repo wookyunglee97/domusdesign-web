@@ -83,7 +83,7 @@ function About() {
               </b>
             </span>
 
-            <NavLink to="/contact" className="contact-redirect">
+            <NavLink to="/domusdesign-web/contact" className="contact-redirect">
               <Button bsClass="contact-button">
                 Contact Us Today
                 <FontAwesomeIcon
@@ -105,7 +105,7 @@ function About() {
               <CardText>
                 New building construction to condo renovations
               </CardText>
-              <NavLink to="/residential">
+              <NavLink to="/domusdesign-web/residential">
                 <Button outline color="danger">
                   View Residential
                   <FontAwesomeIcon
@@ -128,7 +128,7 @@ function About() {
               <CardText>
                 Standalone business storefronts to multiple franchises
               </CardText>
-              <NavLink to="/commercial">
+              <NavLink to="/domusdesign-web/commercial">
                 <Button outline color="danger">
                   View Commercial
                   <FontAwesomeIcon

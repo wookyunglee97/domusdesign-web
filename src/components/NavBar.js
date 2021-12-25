@@ -41,27 +41,27 @@ function NavBar() {
         </div>
         <div className="nav-menu">
           <NavItem>
-            <NavLink to="/" activeClassName="active">
+            <NavLink to="/domusdesign-web/" activeClassName="active">
               Home
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/about" activeClassName="active">
+            <NavLink to="/domusdesign-web/about" activeClassName="active">
               About Us
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/residential" activeClassName="active">
+            <NavLink to="/domusdesign-web/residential" activeClassName="active">
               Residential
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/commercial" activeClassName="active">
+            <NavLink to="/domusdesign-web/commercial" activeClassName="active">
               Commercial
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/contact" activeClassName="active">
+            <NavLink to="/domusdesign-web/contact" activeClassName="active">
               Contact
             </NavLink>
           </NavItem>
